@@ -1,33 +1,34 @@
 import React from "react";
-import "/Home.css";
+import "./Home.css";
 
-export const Homepage = () => {
+const Homepage = () => {
   return (
     <div className="homepage">
       <div className="div">
         <div className="overlap">
           <div className="overlap-group">
             <div className="text">{""}</div>
-            <img className="learn" alt="Learn" src="learn-1.png" />
-            <img className="image" alt="Image" src="image-1.png" />
+            <img className="learn" alt="Learning" src="learn-1.png" />
+            <img className="image" alt="An Example Image" src="image-1.png" />
             <div className="text-wrapper">Nurturing Africa’s Tech Talent</div>
             <p className="p">
               Through market-aligned skills training, we help learners build new career possibilities with greater
               confidence and capability.
             </p>
           </div>
-          <img className="NOTIFICATON" alt="Notificaton" src="NOTIFICATON.png" />
+          <img className="NOTIFICATION" alt="Notification Icon" src="NOTIFICATION.png" />
           <div className="ellipse" />
         </div>
         <div className="overlap-group-2">
           <div className="rectangle" />
-          <img className="IG" alt="Ig" src="IG.png" />
-          <img className="TWEETER" alt="Tweeter" src="TWEETER.png" />
-          <img className="EML" alt="Eml" src="EML.png" />
+          <img className="IG" alt="Instagram Icon" src="IG.png" />
+          <img className="TWEETER" alt="Twitter Icon" src="TWEETER.png" />
+
+          <img className="EML" alt="Email Icon" src="EML.png" />
           <div className="text-wrapper-2">@MORINGADESK</div>
           <div className="text-wrapper-3">@moringadeskofficial</div>
           <div className="text-wrapper-4">@moringadesl@gmail.com</div>
-          <img className="phone" alt="Phone" src="phone.png" />
+          <img className="phone" alt="Phone Icon" src="phone.png" />
           <div className="text-wrapper-5">contact us on: 0778456342</div>
           <div className="text-wrapper-6">@copyrightreservedformoringadesk</div>
         </div>
@@ -39,7 +40,7 @@ export const Homepage = () => {
           <span className="text-wrapper-9">Transform.</span>
         </p>
         <p className="text-wrapper-10">
-          In Moringa we are transforming the way tech education is done in African Markets. All our programs are
+          In Moringa, we are transforming the way tech education is done in African Markets. All our programs are
           delivered through a blended learning approach that combines market-aligned courses, a classroom team of
           talented mentors with the skills and knowledge to deliver growth and results for learners, and an environment
           that supports student creativity, job market preparation in a fun, open, and transformative learning
@@ -72,7 +73,7 @@ export const Homepage = () => {
           </p>
           <p className="text-2">
             <span className="text-wrapper-12">
-              Describe your problem using key words to check for similar problems amd find a solution quicker.
+              Describe your problem using key words to check for similar problems and find a solution quicker.
             </span>
           </p>
         </div>
@@ -85,7 +86,7 @@ export const Homepage = () => {
           </p>
           <p className="text-2">
             <span className="text-wrapper-11">
-              Help resolve other students queries by suggesting solutions to their posted problem.
+              Help resolve other students' queries by suggesting solutions to their posted problem.
             </span>
           </p>
         </div>
@@ -118,4 +119,4 @@ export const Homepage = () => {
   );
 };
 
-export default Home;
+export default Homepage;
