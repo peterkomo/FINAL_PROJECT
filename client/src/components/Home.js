@@ -9,8 +9,8 @@ const Homepage = () => {
           <div className="overlap-group">
             <div className="text">{""}</div>
             <img className="learn" alt="Learning" src="learn-1.png" />
-            <img className="image" alt="An Example Image" src="image-1.png" />
-            <div className="text-wrapper">Nurturing Africa’s Tech Talent</div>
+            <img className="image" alt="An Example Image" src="image.png" />
+            <div className="text-wrapper">Nurturing Africas Tech Talent</div>
             <p className="p">
               Through market-aligned skills training, we help learners build new career possibilities with greater
               confidence and capability.
@@ -22,7 +22,7 @@ const Homepage = () => {
         <div className="overlap-group-2">
           <div className="rectangle" />
           <img className="IG" alt="Instagram Icon" src="IG.png" />
-          <img className="TWEETER" alt="Twitter Icon" src="TWEETER.png" />
+          <img className="TWEETER" alt="Twitter Icon" src="/home/mwangi/FINAL_PROJECT/client/src/components/TWEETER.png" />
 
           <img className="EML" alt="Email Icon" src="EML.png" />
           <div className="text-wrapper-2">@MORINGADESK</div>
