@@ -1,5 +1,11 @@
 import React from "react";
 import "./Home.css";
+import img1 from "/home/mwangi/FINAL_PROJECT/client/src/images/EML.png"
+import img2 from "/home/mwangi/FINAL_PROJECT/client/src/images/IG.jpeg"
+import img3 from "/home/mwangi/FINAL_PROJECT/client/src/images/NOTIFICATON.png"
+import img4 from "/home/mwangi/FINAL_PROJECT/client/src/images/phone.png"
+import img5 from "/home/mwangi/FINAL_PROJECT/client/src/images/TWEETER.png"
+import img6 from "/home/mwangi/FINAL_PROJECT/client/src/images/image.png"
 
 export const Homepage = () => {
   return (
@@ -8,15 +14,15 @@ export const Homepage = () => {
         <div className="overlap">
           <div className="overlap-group">
             <div className="text">{""}</div>
-            <img className="learn" alt="Learn" src="learn-1.png" />
-            <img className="image" alt="Image" src="image-1.png" />
+            <img className="learn" alt="Learn" src="learn.png" />
+            <img className="image" alt="Image" src={img6} />
             <div className="text-wrapper">Nurturing Africa’s Tech Talent</div>
             <p className="p">
               Through market-aligned skills training, we help learners build new career possibilities with greater
               confidence and capability.
             </p>
           </div>
-          <img className="NOTIFICATON" alt="Notificaton" src="NOTIFICATON-1.png" />
+          <img className="NOTIFICATON" alt="Notificaton" src={img3} />
           <div className="ellipse" />
           <div className="nav-bar-items">
             <div className="text-wrapper-2">About us</div>
@@ -26,16 +32,16 @@ export const Homepage = () => {
         <div className="overlap-group-2">
           <div className="rectangle" />
           <img className="screenshot" alt="Screenshot" src="screenshot-2023-10-26-003755-1.png" />
-          <img className="IG" alt="Ig" src="IG-1.png" />
-          <img className="TWEETER" alt="Tweeter" src="TWEETER-1.png" />
-          <img className="EML" alt="Eml" src="EML-1.png" />
+          <img className="IG" alt="Ig" src={img2} />
+          <img className="TWEETER" alt="Tweeter" src={img5} />
+          <img className="EML" alt="Eml" src={img1}/>
           <div className="text-wrapper-4">@MORINGADESK</div>
           <div className="text-wrapper-5">About us</div>
           <div className="text-wrapper-6">How it works</div>
           <div className="text-wrapper-7">Join our team</div>
           <div className="text-wrapper-8">@moringadeskofficial</div>
           <div className="text-wrapper-9">@moringadesl@gmail.com</div>
-          <img className="phone" alt="Phone" src="phone-1.png" />
+          <img className="phone" alt="Phone" src={img4} />
           <div className="text-wrapper-10">contact us on: 0778456342</div>
           <div className="text-wrapper-11">@copyrightreservedformoringadesk</div>
           <div className="flexcontainer">
