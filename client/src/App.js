@@ -1,14 +1,14 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import Homepage from "./components/Home";
+import CreateAccount from "./components/login";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route exact path="/" element={<Homepage/>} />
+          <Route exact path="/" element={<CreateAccount/>} />
         </Routes>
       </div>
     </Router>

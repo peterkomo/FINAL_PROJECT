@@ -21,11 +21,12 @@
   }
   
   .create-account .white-rounded {
-    height: 920px;
+    height: 78px;
     left: 0;
+    object-fit: cover;
     position: absolute;
     top: 0;
-    width: 672px;
+    width: 341px;
   }
   
   .create-account .text-wrapper {
@@ -199,4 +200,5 @@
     top: 18px;
     width: 341px;
   }
+  
   
