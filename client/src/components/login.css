@@ -169,28 +169,21 @@
   width: 341px;
 }
 
-.login-page .login-image {
-  background-color: #fa510f;
-  border-radius: 150px;
-  height: 900px;
-  left: 56px;
-  position: absolute;
-  top: 39px;
-  width: 700px;
-}
+
 
 .login-page .unnamed {
-  height: 865px;
+  /* height: 865px;
   width: 650px;
-  left:20px;
-  position: relative;
+  left:20px; */
+  position: static;
   border-radius: 100px;
-  margin: 10px;
+  height: auto;
+  width: 700px;
+  
+  border-radius: 100px;
+   margin-top: 150px ; 
   align-items: center;
+  
+  
+  
 }
-/* height: 865px;
-left: 22px;
-object-fit: cover;
-position: absolute;
-top: 18px;
-width: 715px; */

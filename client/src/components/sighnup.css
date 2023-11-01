@@ -209,4 +209,28 @@
     margin: 10px;
     align-items: center;
   }
-  
+#registrationform{
+    display: flex;
+    justify-content: space-evenly;
+}
+#registration input{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+#registration input[type=text]:active {
+    border-color: #fa510f;
+}
+
+#registration{
+    margin-top: 150px;
+}
+#img img{
+    width: 300px;
+    height: auto;
+    margin: 50px 0 0 200px;
+}
+.registration-image img{
+    border-radius: 30px;
+}
+
